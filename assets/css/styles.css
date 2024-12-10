@@ -1,0 +1,172 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'TheSeasons';
+    src: url('../fonts/Fontspring-Demo-TheSeasons-Reg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to bottom, #0a2855, #819eca); /* Degradê laranja */
+    color: #fff;
+    padding: 1rem 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    line-height:20px;
+    text-align: center;
+}
+.cta-button {
+    padding: 10px 10px;
+    width: 150px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #0a2855;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+h1 {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'TheSeasons', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+main {
+    padding: 2rem;
+}
+
+.trabalhos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.trabalho {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.trabalho img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #0a2855;
+    margin: 1rem 0 0.5rem;
+    font-family: 'TheSeasons', serif;
+    font-style: bold;
+    font-weight: 600;
+}
+.titulos-soltos{
+    font-size: 35px;
+}
+
+.descricao {
+    font-size: 0.9rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.link {
+    text-decoration: none;
+    background: #0a2855;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.link:hover {
+    background: #0a2855;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0a2855;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.historia-img {
+    float: left; /* Faz a imagem flutuar à esquerda */
+    margin: 0 15px 15px 0; /* Espaçamento entre a imagem e o texto */
+    max-width: 50%; /* Garante que a imagem não fique muito grande */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px 10px 10px 20px;
+    width: 300px;
+    box-shadow: 10px 10px 20px rgba(56, 56, 56, 0.5); /* Sombra */
+  }
+  .historia {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px; /* Espaçamento entre imagem e texto */
+  }
+  
+  .historia-img {
+    max-width: 300px;
+    height: auto;
+    flex-shrink: 0; /* Garante que a imagem não encolha */
+  }
+/* Estilo para a imagem circular */
+.alunos-img {
+    border-radius: 50%; /* Faz a imagem ser circular */
+    width: 120px;
+    height: 120px;
+    object-fit: cover; /* Garante que a imagem não distorça */
+    border: 3px solid #ccc; /* Adiciona uma borda para destacar */
+}
+
+/* Container principal dos alunos */
+.alunos {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
+    gap: 20px; /* Espaçamento entre os itens */
+    justify-content: center; /* Centraliza os itens */
+    padding: 20px;
+    background-color: #f9f9f9; /* Fundo suave */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilo para cada aluno */
+.alunos-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 150px; /* Define largura máxima para melhor alinhamento */
+}
+
+/* Texto dos alunos */
+.alunos-texto {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+}
+p{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+}
